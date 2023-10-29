@@ -11,7 +11,7 @@
     <form action="">
         <!-- campo de texto -->
         <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" id="nome" name="nome" required placeholder="ex: lucas daniel">
         <br><br>
 
         <!-- campo de email -->
@@ -47,7 +47,22 @@
 
         <!-- campo de arquivo (uploads) -->
         <label for="fotodeperfil">foto de perfil</label>
-        <input type="file" name="avatar" id="fotodeperfil">
+        <input type="file" name="avatar" id="fotodeperfil"><br><br>
+
+        <!-- campo de caixa de seleção -->
+        <label for="situacao">situação atual:</label>
+        <select name="situacao" id="situacao">
+            <option value="" selected disabled>selecione uma das opções...</option>
+            <option value="estudante">estudando para me tornar um programador</option>
+            <option value="estagiario">atuando como estagiario/trainer</option>
+            <option value="junior">atuando como desenvolvedor junior</option>
+            <option value="pleno">atuando como desenvolvedor pleno</option>
+            <option value="senior">atuando como desenvolvedor senior</option>
+        </select><br><br>
+
+        <!-- campo de area de texto de multiplas linhas -->
+        <label for="sobre">sobre mim:</label>
+        <textarea name="sobre" id="sobre" cols="30" rows="6" placeholder="fale um pouco sobre você..."></textarea>
         <button type="submit">Enviar</button>
     </form>
 </body>
