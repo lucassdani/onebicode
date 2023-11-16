@@ -1,8 +1,11 @@
-let primeiro_nome = 'lucas '
-let sobrenome = 'daniel'
-let campo_de_estudo = 'javascript'
-let ano_nascimento = 2007
+const primeiro_nome = prompt('informe o primero nome do recruta:')
+const sobrenone = prompt('informe o sobrenome do recruta:')
+const campo_de_estudo = prompt('qual o campo de estudo do recruta?:')
+const ano_de_nascimento = prompt('qual o ano de nascimento do recruta?:')
 
-console.log(primeiro_nome + sobrenome)
-console.log(campo_de_estudo)
-console.log(ano_nascimento = 2023 - ano_nascimento)
+alert(
+    'recruta cadastrado com sucesso\n' +
+    '\nnome completo: ' + primeiro_nome + ' ' + sobrenone +
+    '\ncampo de estudo: ' + campo_de_estudo +
+    '\nidade: ' + (2023 - ano_de_nascimento)
+)
