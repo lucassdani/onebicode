@@ -1,2 +1,12 @@
-const nome = prompt('qual o seu nome?:')
-const pergunta = prompt('ja visitou alguma cidade (s/n)?')
+const turista = prompt('e ai, turista! qual o seu nome?')
+let cidades = ''
+let contagem = 0
+
+let continuar = prompt('voce visitou alguma cidade? (s/n)')
+
+while (continuar === 's') {
+    let cidade = prompt('qual é o nome da cidade visitada')
+    cidades += ' - ' + cidade + '\n'
+    contagem++
+    continuar = prompt('voce visitou alguma outra cidade? (s/n)')
+}
