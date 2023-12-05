@@ -10,3 +10,9 @@ while (continuar === 's') {
     contagem++
     continuar = prompt('voce visitou alguma outra cidade? (s/n)')
 }
+
+alert(
+    'turista: ' + turista +
+    '\nquantidades de cidades visitadas: ' + contagem +
+    '\ncidades visitadas:\n' + cidades
+)
