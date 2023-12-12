@@ -4,8 +4,8 @@ console.log(nome)
 console.error(nome)
 console.warn(nome)
 
+// nome = window.prompt('insira o seu nome:')
 // window.alert(nome)
-// nome = window.prompt('insira o seu nome: ')
-// let confirmacao = window.confirm('confirma essa ação?')
+let confirmacao = window.confirm('confirma essa açao?')
 
-alert('ola, mundo')
+console.log(confirmacao)
