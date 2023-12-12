@@ -6,5 +6,4 @@ let AnoDeNascimento = parseFloat(prompt('digite o seu ano de nascimento:'))
 alert(
     nome + ' ' + sobrenome +
     '\n' + campoDeEstudo +
-    '\n' + AnoDeNascimento - 2023
-)
+    '\n' + (2023 - AnoDeNascimento) )
