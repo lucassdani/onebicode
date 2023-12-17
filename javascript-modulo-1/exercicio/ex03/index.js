@@ -1,39 +1,31 @@
-let medida = parseFloat(prompt('fale uma valor em metro:'))
+const numero = parseFloat(prompt('digite um valor em (m):'))
+const unidadeDeMedida = parseFloat(prompt('qual a unidade de medida você gostaria de converter?\n1)mm\n2)cm\n3)dm\n4)dam\n5)hm\n6)km'))
 
-const unidadeDeMedida = parseFloat(prompt(
-    'escolha uma unidade de medida\n' +
-    '1)mm\n' +
-    '2)cm\n' +
-    '3)dm\n' +
-    '4)dam\n' +
-    '5)hm\n' +
-    '6)km' 
-    ))
+const mm = numero * 1000
+const cm = numero * 100
+const dm = numero * 10
+const dam = numero / 10
+const hm = numero / 100
+const km = numero / 1000
 
 switch (unidadeDeMedida) {
-    case 1:
-        medida *= 1000
-        alert('resultado é ' + medida + 'mm')
+    case 1: 
+        alert('valor convertido em (mm): ' + mm)
         break
     case 2:
-        medida *= 100
-        alert('resultado é ' + medida + 'cm')
+        alert('valor convertido em (cm): ' + cm)
         break
     case 3:
-        medida *= 10
-        alert('resultado é ' + medida + 'dm')
+        alert('valor convertido em (dm): ' + dm)
         break
     case 4:
-        medida /= 10
-        alert('resultado é ' + medida + 'dam')
+        alert('valor convertido em (dam): ' + dam)
         break
     case 5:
-        medida /= 100
-        alert('resultado é ' + medida + 'hm')
+        alert('valor convertido em (hm): ' + hm)
         break
     case 6:
-        medida /= 1000
-        alert('resultado é ' + medida + 'km')
+        alert('valor convertido em (km): ' + km)
         break
     default:
         alert('opção inválida')
