@@ -2,17 +2,17 @@ const turista = prompt('e ai, turista! qual o seu nome?')
 let cidades = ''
 let contagem = 0
 
-let continuar = prompt('voce visitou alguma cidade? (s/n)')
+let continuar = prompt('você visitou alguma cidade? (s/n)')
 
-while (continuar === 's') {
-    let cidade = prompt('qual é o nome da cidade visitada')
+while (continuar = 's') {
+    let cidade = prompt('qual o nome da cidade visitada?')
     cidades += ' - ' + cidade + '\n'
     contagem++
-    continuar = prompt('voce visitou alguma outra cidade? (s/n)')
+    continuar = prompt('você visitou alguma outra cidade? (s/n)')
 }
 
 alert(
     'turista: ' + turista +
-    '\nquantidades de cidades visitadas: ' + contagem +
+    '\nquantidade de cidades visitadas: ' + contagem +
     '\ncidades visitadas:\n' + cidades
 )
