@@ -40,3 +40,19 @@ const outros = arr.slice(-4)
 console.log(arr)
 console.log(hobbit)
 console.log(outros)
+
+//concat
+const sociedade =hobbit.concat(outros, 'boromir')
+console.log(sociedade)
+
+// substituição dos elementos
+// splice
+const elementosRemovidos = sociedade.splice(indice, 1, 'gadalf, o cinzento')
+console.log(sociedade)
+console.log(elementosRemovidos)
+
+// interar sobre os elementos
+for (let indice = 0; indice < sociedade.length; indice++) {
+    const elemento = sociedade[indice]
+    console.log(`${elemento} se encontra na posição ${indice}`)
+}
