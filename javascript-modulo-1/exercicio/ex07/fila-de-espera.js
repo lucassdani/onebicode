@@ -8,8 +8,8 @@ do {
   }
 
   opcao = prompt(
-    `pacientes\n ${pacientes}
-        \nescolha uma ação:\n1. novo paciente\n2. consultar\n3. sair`
+    `pacientes:\n ${pacientes}
+     \nescolha uma ação:\n1. novo paciente\n2. consultar\n3. sair`
   );
 
   switch (opcao) {
