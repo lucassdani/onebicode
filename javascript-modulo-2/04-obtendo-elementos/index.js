@@ -1,19 +1,19 @@
 function show() {
-    const contactiList = document.getElementById('contatc-list')
-    console.log(contactiList)
+    const contactList= document.getElementById('contact-list')
+    console.log(contactList)
 
-    const listElements = document.getElementsByTagName('li')
+    const listElements = document.getElementsByName('li')
     console.log(listElements)
 
-    const contactInputs = document.getElementsByClassName('contact-input')
-    console.log(contactInputs)
+    const contacIpunts = document.getElementsByClassName('contact-input')
+    console.log(contacIpunts)
 
-    const contact = document.querySelectorAll('#contact-list > li > label')
-    console.log(contact)
+    const contacts = document.querySelectorAll('#contact-list > li > label')
+    console.log(contacts)
 
     const contact1 = document.getElementsByName('contact1')
     console.log(contact1)
 
-    const fistContact = document.querySelector('#contact-list > l1 > label')
+    const fistContact = document.querySelector('#contact-list > li > label')
     console.log(fistContact)
 }
