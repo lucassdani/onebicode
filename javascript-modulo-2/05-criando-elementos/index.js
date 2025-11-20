@@ -1,9 +1,9 @@
 function addInput() {
     const ul = document.getElementById('inputs')
 
-    const newLi = document.createElement('li')
+    const newLi = document.createElement('li') 
     newLi.className = 'list-item'
-    newLi.innerText = 'novo input: '
+    newLi.innerText = 'Novo input: '
 
     const newInput = document.createElement('input')
     newInput.type = 'text'
